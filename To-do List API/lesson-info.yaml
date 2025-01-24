@@ -1,0 +1,8 @@
+type: framework
+content:
+  - A basic Django page
+  - The Power of API
+  - CRUD and permissions
+  - The more the merrier
+  - Document for everyone
+current_task: 1

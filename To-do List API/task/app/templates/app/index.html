@@ -1,0 +1,11 @@
+<h1>All Tasks</h1>
+{% for todo in todos %}
+    <ul class="todo">
+        <a href="/{{ todo.id }}/">
+            <li>Title: {{ todo.task }}</li>
+            <li>Goal Set On: {{ todo.goal_set_date }}</li>
+            <li>Set To Complete: {{ todo.set_to_complete }}</li>
+            <li>Completed Status: {{ todo.is_completed }}</li>
+        </a>
+    </ul>
+{% endfor %}

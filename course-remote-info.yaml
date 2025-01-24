@@ -1,0 +1,282 @@
+hyperskill_project:
+  id: 242
+  ide_files: https://cogniterra.org/media/attachments/lesson/26422/additional_files.json
+  is_template_based: false
+  use_ide: true
+  environment: unittest
+update_date: "Fri, 24 Jan 2025 11:11:29 UTC"
+stages:
+  - id: 1212
+    step: 18918
+    is_completed: true
+  - id: 1213
+    step: 18919
+    is_completed: true
+  - id: 1214
+    step: 18920
+    is_completed: false
+  - id: 1215
+    step: 18921
+    is_completed: false
+  - id: 1216
+    step: 18922
+    is_completed: false
+topics:
+  0:
+    - title: Operating systems
+      theory_id: 9704
+    - title: Command line overview
+      theory_id: 8977
+    - title: Parameters and options
+      theory_id: 9746
+    - title: World Wide Web
+      theory_id: 6633
+    - title: "HTTP: HyperText Transfer Protocol"
+      theory_id: 6569
+    - title: Introduction to Django
+      theory_id: 25452
+    - title: Django MVC
+      theory_id: 15548
+    - title: Django project structure
+      theory_id: 27226
+    - title: HTTP URL
+      theory_id: 6740
+    - title: Starting a project
+      theory_id: 26862
+    - title: Launching web server
+      theory_id: 25353
+    - title: Django settings file
+      theory_id: 17059
+    - title: Django ORM
+      theory_id: 27527
+    - title: Model data types
+      theory_id: 29694
+    - title: Queries and filters
+      theory_id: 25368
+    - title: Date and time formatting
+      theory_id: 31623
+    - title: Introduction to Python
+      theory_id: 47352
+    - title: Multi-line programs
+      theory_id: 47555
+    - title: Taking user's input
+      theory_id: 47680
+    - title: Program with numbers
+      theory_id: 47734
+    - title: If statement
+      theory_id: 5953
+    - title: Else statement
+      theory_id: 5932
+    - title: For loop
+      theory_id: 6065
+    - title: Importing modules
+      theory_id: 6019
+    - title: Creating modules
+      theory_id: 6057
+    - title: Multiple modules. Package
+      theory_id: 6384
+    - title: Installing packages with pip
+      theory_id: 6230
+    - title: Virtual Environment
+      theory_id: 13923
+    - title: What is object-oriented programming
+      theory_id: 3614
+    - title: Web development
+      theory_id: 13931
+    - title: Libraries
+      theory_id: 8504
+    - title: Frameworks
+      theory_id: 6701
+    - title: Concept of design patterns
+      theory_id: 3611
+    - title: What are bugs
+      theory_id: 5504
+    - title: Introduction to software architecture
+      theory_id: 15368
+    - title: Class
+      theory_id: 6661
+    - title: Class instances
+      theory_id: 6669
+    - title: Methods
+      theory_id: 6931
+    - title: Methods and attributes
+      theory_id: 6981
+    - title: Magic methods
+      theory_id: 7139
+    - title: os module
+      theory_id: 11119
+    - title: What are databases
+      theory_id: 8497
+    - title: Inheritance
+      theory_id: 9844
+    - title: Inheritance in Python
+      theory_id: 7235
+    - title: HTML Basics
+      theory_id: 47192
+    - title: Tags and Attributes
+      theory_id: 7536
+    - title: HTML page structure
+      theory_id: 6491
+    - title: Relational Data Model
+      theory_id: 13785
+    - title: Datetime module
+      theory_id: 7324
+    - title: JSON
+      theory_id: 6854
+    - title: XML
+      theory_id: 6901
+    - title: Data and object mapping
+      theory_id: 8262
+    - title: Object-Relational Mapping (ORM)
+      theory_id: 8312
+    - title: File types
+      theory_id: 13017
+    - title: Program execution
+      theory_id: 6047
+    - title: Errors
+      theory_id: 6052
+    - title: Exceptions
+      theory_id: 6042
+    - title: Built-in exceptions
+      theory_id: 11680
+    - title: Exception handling
+      theory_id: 6270
+    - title: Datetime parsing and formatting
+      theory_id: 9814
+    - title: Basic data types
+      theory_id: 47516
+    - title: Variables
+      theory_id: 47536
+    - title: "Integer arithmetic: basic operations"
+      theory_id: 47564
+    - title: Invoking functions
+      theory_id: 5891
+    - title: Boolean type and operations. True and false
+      theory_id: 6025
+    - title: Comparisons
+      theory_id: 5920
+    - title: List
+      theory_id: 5979
+    - title: Indexes
+      theory_id: 6189
+    - title: Declaring functions
+      theory_id: 5900
+    - title: Global vs local. Scopes
+      theory_id: 6322
+    - title: "Function, arguments and parameters"
+      theory_id: 7248
+    - title: Quotes and multi-line strings
+      theory_id: 5814
+    - title: String formatting
+      theory_id: 6037
+    - title: MVC
+      theory_id: 17197
+    - title: Dictionary
+      theory_id: 6481
+    - title: Dictionary methods
+      theory_id: 9008
+  1:
+    - title: Introduction to UI/UX
+      theory_id: 14603
+    - title: Layout grids
+      theory_id: 14922
+    - title: Interface elements
+      theory_id: 15253
+    - title: Immutability
+      theory_id: 7929
+    - title: Block-level elements
+      theory_id: 7271
+    - title: Inline elements
+      theory_id: 7518
+    - title: HTTP messages
+      theory_id: 6752
+    - title: REST
+      theory_id: 7834
+    - title: Django template language
+      theory_id: 28260
+    - title: Audio
+      theory_id: 7493
+    - title: Object modification with ORM
+      theory_id: 26486
+    - title: Meta class
+      theory_id: 17635
+    - title: Relationship fields
+      theory_id: 25329
+    - title: Field lookups
+      theory_id: 25362
+    - title: Aggregations and Ordering
+      theory_id: 28793
+    - title: Class based views for API
+      theory_id: 40125
+    - title: Domains
+      theory_id: 6911
+    - title: What is CSS
+      theory_id: 7678
+    - title: HTML attributes id and class
+      theory_id: 7527
+    - title: Intro to HTML forms
+      theory_id: 6560
+    - title: Using models with templates
+      theory_id: 25360
+    - title: Intro to views in Django
+      theory_id: 29408
+    - title: Rendering templates
+      theory_id: 26493
+    - title: Processing requests
+      theory_id: 27986
+    - title: Forms
+      theory_id: 28264
+    - title: Submitting data
+      theory_id: 27221
+    - title: Intro to DRF
+      theory_id: 36785
+    - title: Serializers in DRF
+      theory_id: 37141
+    - title: Views and routing in DRF
+      theory_id: 36860
+    - title: Code organization. Design principles
+      theory_id: 8956
+    - title: Polymorphism
+      theory_id: 10027
+    - title: Method overriding
+      theory_id: 7629
+    - title: Introduction to API
+      theory_id: 17007
+    - title: Identity testing
+      theory_id: 8077
+    - title: Objects in Python
+      theory_id: 9262
+    - title: Operations with list
+      theory_id: 6031
+    - title: Default arguments
+      theory_id: 10295
+    - title: Tuple
+      theory_id: 7462
+    - title: Args
+      theory_id: 8560
+    - title: "Working with strings: basic methods"
+      theory_id: 6842
+    - title: Escape sequences
+      theory_id: 7130
+    - title: Splitting strings and joining lists
+      theory_id: 6972
+    - title: Operations with dictionary
+      theory_id: 11096
+    - title: Kwargs
+      theory_id: 9544
+    - title: Slicing
+      theory_id: 6177
+    - title: Regular expression
+      theory_id: 7580
+  2:
+    - title: Django testing framework
+      theory_id: 37280
+    - title: Pytest with django
+      theory_id: 43315
+  4:
+    - title: API documentation
+      theory_id: 37722
+    - title: REST API design principles
+      theory_id: 43135
+    - title: JsonResponse object
+      theory_id: 19646

@@ -1,0 +1,84 @@
+type: edu
+files:
+  - name: app/__init__.py
+    visible: true
+    learner_created: false
+  - name: app/admin.py
+    visible: true
+    learner_created: false
+  - name: app/apps.py
+    visible: true
+    learner_created: false
+  - name: app/models.py
+    visible: true
+    learner_created: false
+  - name: app/tests.py
+    visible: true
+    learner_created: false
+  - name: app/views.py
+    visible: true
+    learner_created: false
+  - name: test/__init__.py
+    visible: false
+    learner_created: false
+  - name: test/base.py
+    visible: false
+    learner_created: false
+  - name: test/tests.py
+    visible: false
+    learner_created: false
+  - name: todoapi/__init__.py
+    visible: true
+    learner_created: false
+  - name: todoapi/asgi.py
+    visible: true
+    learner_created: false
+  - name: todoapi/settings.py
+    visible: true
+    learner_created: false
+  - name: todoapi/urls.py
+    visible: true
+    learner_created: false
+  - name: todoapi/wsgi.py
+    visible: true
+    learner_created: false
+  - name: manage.py
+    visible: true
+    learner_created: false
+  - name: tests.py
+    visible: false
+    learner_created: false
+  - name: app/urls.py
+    visible: true
+    learner_created: true
+  - name: db.sqlite3
+    visible: true
+    learner_created: true
+  - name: app/templates/app/index.html
+    visible: true
+    learner_created: true
+  - name: app/migrations/0001_initial.py
+    visible: true
+    learner_created: true
+  - name: app/templates/app/details.html
+    visible: true
+    learner_created: true
+  - name: db.test.sqlite3
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: app/migrations/0002_remove_todo_title_todo_task.py
+    visible: true
+    learner_created: true
+  - name: app/serializers.py
+    visible: true
+    learner_created: true
+  - name: app/viewsets.py
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/18918#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 24 Jan 2025 12:55:04 UTC"
+record: -1

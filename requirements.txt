@@ -1,0 +1,7 @@
+Django==4.2.2
+https://github.com/hyperskill/hs-test-python/archive/release.tar.gz
+requests
+djangorestframework
+beautifulsoup4
+python-dateutil
+lxml

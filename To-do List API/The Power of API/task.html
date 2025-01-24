@@ -1,0 +1,59 @@
+<div class="step-text">
+<p></p>
+<h5 id="description">Description</h5>
+<p>In the previous stage, you have created a traditional Django page that displays the tasks added by the <code class="language-json">superuser</code>. In this stage, you will implement the same functionality but as an API.</p>
+<p>Like in the previous stage, your model should include the <strong>title</strong>, <strong>description</strong>, two fields with <strong>dates</strong>, and a <strong>boolean </strong>field. The functionality of these fields is the same as in the previous stage. We will continue to improve our project in the following stages, so writing a new model is encouraged. Also, add some tasks in this app with the <code class="language-json">superuser</code> created in the previous stage.</p>
+<p>Start by implementing two simple <code class="language-json">GET</code> endpoints: <code class="language-json">GET /api/tasks</code> and <code class="language-json">GET /api/tasks/&lt;id&gt;</code>. These endpoints will work similarly to the URL routing. While displaying the data, you need to order the tasks by the status of completion (incomplete first), by the due date (sooner ones first), and by the date of creation (the older ones first), in this order.</p>
+<p>In the following stages, we will work on the <code class="language-json">POST</code> methods as well. Previously, we've sealed with generic <code class="language-json">view</code> classes of Django; now, you need to use the classes defined in the generics module of the <code class="language-json">rest_framework</code>, <code class="language-json">ListAPIView</code>, and <code class="language-json">RetrieveAPIView</code>. You can import these classes using the following command: <code class="language-json">from rest_framework import generics</code>. If you don't know much about them, take a look at the <a href="https://www.django-rest-framework.org/api-guide/generic-views/" rel="noopener noreferrer nofollow" target="_blank">official documentation.</a></p>
+<p>To complete this stage, you might need basic knowledge of the way class-based views, function-based views and generic views are used in API.</p>
+<h5 id="objectives">Objectives</h5>
+<p>Implement two endpoints:</p>
+<ul>
+<li>
+<p><code class="language-json">GET /api/tasks</code> returns all the tasks the user has added as a JSON object.</p>
+</li>
+<li>
+<p><code class="language-json">GET /api/tasks/&lt;id&gt;</code> returns the detailed view of the task as per the task's ID.</p>
+</li>
+</ul>
+<h5 id="examples">Examples</h5>
+<p><strong>Example 1:</strong> <em>GET response for /api/tasks with 0 tasks.</em></p>
+<pre><code class="language-json">[]</code></pre>
+<p><strong>Example 2:</strong> <em>GET response for /api/tasks with three tasks.</em></p>
+<pre><code class="language-json">[
+    {
+        "id": 1,
+        "task": "Task1",
+        "description": "Create a django TODO-list app",
+        "goal_set_date": "2021-08-07",
+        "set_to_complete": "2021-08-08",
+        "is_completed": false
+    },
+    {
+        "id": 3,
+        "task": "Task3",
+        "description": "dsas",
+        "goal_set_date": "2021-08-07",
+        "set_to_complete": "2021-08-10",
+        "is_completed": false
+    },
+    {
+        "id": 2,
+        "task": "Task2",
+        "description": "aa",
+        "goal_set_date": "2021-08-06",
+        "set_to_complete": "2021-08-07",
+        "is_completed": true
+    }
+]</code></pre>
+<p><strong>Example 3:</strong> <em>GET response for /api/tasks/1.</em></p>
+<pre><code class="language-json">
+{
+    "id": 1,
+    "task": "Task1",
+    "description": "Create a django TODO-list app",
+    "goal_set_date": "2021-08-07",
+    "set_to_complete": "2021-08-08",
+    "is_completed": false
+}</code></pre>
+</div>

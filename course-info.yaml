@@ -1,0 +1,16 @@
+type: hyperskill
+title: To-do List API
+language: English
+summary: "<div>\r\n<p>The TODO app helps us keep track of what we need to fulfill.\
+  \ Build an app\_with CRUD functionality that can be run in your browser. It will\
+  \ also allow\_multiple users to register, log in, and create their to-do lists.\_\
+  We\_recommend completing other Django projects before starting this one,\_as the\
+  \ focus is mostly on the API; we expect you to have a basic understanding of Django\
+  \ features.</p>\r\n</div><br/><br/>Learn more at <a href=\"https://hyperskill.org/projects/242?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card\"\
+  >https://hyperskill.org/projects/242</a>"
+programming_language: Python
+environment: unittest
+content:
+  - To-do List API
+mode: Study
+yaml_version: 1

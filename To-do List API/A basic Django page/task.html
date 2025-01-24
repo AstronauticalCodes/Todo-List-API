@@ -1,0 +1,50 @@
+<div class="step-text">
+<h5 id="description">Description</h5>
+<p>The TODO app helps you keep track of your activity and improve your personal life. In this project, we will focus on creating an API using the Django REST Framework to add tasks and manage our application.</p>
+<p>Before creating an actual API, it is important to understand how Django and Django REST Framework communicate with databases and the outcome they produce. In this stage, you will focus on creating a simple TODO app that will serve as a foundation. You don't need to add fancy templates, user permission, and authorizations. Create an app with <code class="java">Todo</code> model, that has a <strong>title</strong>, <strong>description</strong>, and two fields with <strong>dates</strong> <em>—</em> they show when the task was added and a deadline. Another <strong>boolean </strong>field also checks whether the task has been completed or not. </p>
+<p>Use the Django <code class="java">superuser</code> functionality to add three tasks and a generic <code class="java">view</code> class to display them. Your project should route two URLs: <code class="java">localhost:8000/</code> and <code class="java">localhost:8000/&lt;id&gt;/</code>.</p>
+<h5 id="objectives">Objectives</h5>
+<p>In this stage, your program should:</p>
+<ul>
+<li>Display an unordered list of all tasks at <code class="java">localhost/8000/</code>. For each task, show its title, date of creation, deadline date, and its status (see the Examples section);</li>
+<li>Display the detailed view of the task according to the task's ID at <code class="java">localhost/8000/&lt;id&gt;</code>. Here, you should also show the task's description.</li>
+</ul>
+<p>You don't have to explicitly define the ID parameter in your model, as it is automatically added by Django.</p>
+<ul>
+<li>Your <code class="java">Todo</code> model should contain <code class="java">task</code>, ⁣<code class="java">description</code>, <code class="java">goal_set_date</code>, <code class="java">set_to_complete</code>, and <code class="java">is_completed</code> fields.</li>
+<li>The <code class="java">task</code> contains a task name with a limit of 50 symbols. As for the <code class="java">description</code> field, the max length is <code class="java">1024</code>.</li>
+<li>The <code class="java">goal_set_date</code> and <code class="java">set_to_complete</code> fields must contain a date (it should be datetime fields). The <code class="java">is_completed</code> field is boolean. </li>
+<li>Define <code class="java">Todo</code> in the <em>models.py</em> module and migrate it to the database.</li>
+</ul>
+<p></p><div class="alert alert-primary">Please, use these exact names for the model and the fields, otherwise your solution might not pass the tests.</div>
+<h5 id="examples">Examples</h5>
+<p><strong>Example 1: </strong><em>output at localhost:8000/ with three tasks.</em></p>
+<p>All Tasks</p>
+<ul>
+<li>Title: Task1</li>
+<li>Goal Set On: Aug. 7, 2021</li>
+<li>Set To Complete: Aug. 8, 2021</li>
+<li>Completed Status: False</li>
+</ul>
+<ul>
+<li>Title: Task2</li>
+<li>Goal Set On: Aug. 6, 2021</li>
+<li>Set To Complete: Aug. 7, 2021</li>
+<li>Completed Status: True</li>
+</ul>
+<ul>
+<li>Title: Task3</li>
+<li>Goal Set On: Aug. 7, 2021</li>
+<li>Set To Complete: Aug. 10, 2021</li>
+<li>Completed Status: False</li>
+</ul>
+<p><strong>Example 2:</strong> <em>output at localhost:8000/1/ with the task details.</em></p>
+<p>Task1</p>
+<p>Create a Django TODO-list app.</p>
+<ul>
+<li>Goal Set On: Aug. 7, 2021</li>
+<li>Set To Complete: Aug. 8, 2021</li>
+<li>Completed Status: False</li>
+</ul>
+<p></p><div class="alert alert-primary">The description is seen only in the detailed view but not in the list view. The description is <code class="java">Create a Django TODO-list app.</code></div>
+</div>

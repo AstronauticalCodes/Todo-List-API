@@ -1,0 +1,56 @@
+type: edu
+files:
+  - name: app/__init__.py
+    visible: true
+    learner_created: false
+  - name: app/admin.py
+    visible: true
+    learner_created: false
+  - name: app/apps.py
+    visible: true
+    learner_created: false
+  - name: app/models.py
+    visible: true
+    learner_created: false
+  - name: app/tests.py
+    visible: true
+    learner_created: false
+  - name: app/views.py
+    visible: true
+    learner_created: false
+  - name: todoapi/__init__.py
+    visible: true
+    learner_created: false
+  - name: todoapi/asgi.py
+    visible: true
+    learner_created: false
+  - name: todoapi/settings.py
+    visible: true
+    learner_created: false
+  - name: todoapi/urls.py
+    visible: true
+    learner_created: false
+  - name: todoapi/wsgi.py
+    visible: true
+    learner_created: false
+  - name: manage.py
+    visible: true
+    learner_created: false
+  - name: test/__init__.py
+    visible: false
+    learner_created: false
+  - name: test/base.py
+    visible: false
+    learner_created: false
+  - name: test/relogin.py
+    visible: false
+    learner_created: false
+  - name: test/tests.py
+    visible: false
+    learner_created: false
+  - name: tests.py
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/18921#comment
+status: Unchecked
+record: -1
