@@ -1,7 +1,10 @@
 from django.shortcuts import render
 from django.views import View
 from .models import Todo
-from rest_framework import generics
+from rest_framework import generics, permissions
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
 
 from .serializers import TodoSerializer
 
@@ -43,3 +46,11 @@ class DetailView(View):
 class ListView(generics.ListAPIView):
     queryset = Todo.objects.all()
     serializer_class = TodoSerializer
+
+
+# class LogoutView(APIView):
+#     permission_classes = [permissions.IsAuthenticated]
+#
+#     def post(self, request):
+#         request.user.auth_token.delete()
+#         return Response(status=status.HTTP_200_OK)

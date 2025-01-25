@@ -4,9 +4,17 @@ from .base import TodoApiToolTest
 
 class TodoApiToolTestRunner(TodoApiToolTest):
     funcs = [
-        # task 2
-        TodoApiToolTest.check_database,
-        TodoApiToolTest.check_multiple_json_response,
+        # task 3
+
+
+        TodoApiToolTest.check_not_logined_tasks,
+        TodoApiToolTest.check_logined_tasks,
+
+        TodoApiToolTest.check_logined_task,
+        TodoApiToolTest.check_not_logined_task,
+
+        TodoApiToolTest.check_edit_task,
+
     ]
 
     @dynamic_test(data=funcs)

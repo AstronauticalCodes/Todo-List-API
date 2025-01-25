@@ -77,9 +77,6 @@ files:
   - name: app/viewsets.py
     visible: true
     learner_created: true
-  - name: db.test.sqlite3-journal
-    visible: true
-    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/18919#comment
 status: Solved
 feedback:

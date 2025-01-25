@@ -51,6 +51,50 @@ files:
   - name: tests.py
     visible: false
     learner_created: false
+  - name: db.test.sqlite3
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: app/migrations/0002_remove_todo_title_todo_task.py
+    visible: true
+    learner_created: true
+  - name: db.sqlite3
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: app/templates/app/details.html
+    visible: true
+    learner_created: true
+  - name: app/serializers.py
+    visible: true
+    learner_created: true
+  - name: app/migrations/0001_initial.py
+    visible: true
+    learner_created: true
+  - name: app/urls.py
+    visible: true
+    learner_created: true
+  - name: app/templates/app/index.html
+    visible: true
+    learner_created: true
+  - name: app/viewsets.py
+    visible: true
+    learner_created: true
+  - name: app/permissions.py
+    visible: true
+    learner_created: true
+  - name: app/migrations/0003_delete_todo.py
+    visible: true
+    learner_created: true
+  - name: app/migrations/0004_initial.py
+    visible: true
+    learner_created: true
+  - name: app/migrations/0005_alter_todo_description_alter_todo_user.py
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/18920#comment
-status: Unchecked
+status: Failed
+feedback:
+  message: "Unexpected error in test #5"
+  time: "Sat, 25 Jan 2025 11:49:17 UTC"
 record: -1
